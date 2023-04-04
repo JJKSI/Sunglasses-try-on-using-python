@@ -9,7 +9,7 @@ while True:
     if k==ord('s'):
         num=num+1
     #print(num)    
-    if(num<=29):
+    if(num<=29):      # here under imread write the path where the images are there
             overlay = cv2.imread(r'C:/Users/Shiv/Downloads/VirtualSunglasses-main/VirtualSunglasses-main/Glasses/glass{}.png'.format(num), cv2.IMREAD_UNCHANGED)
         
     _, frame = cap.read()
